@@ -17,10 +17,10 @@ The purpose of this repo is to provide a containerised version of WooCommerce fo
 8. If the container is running, your new Wordpress store should be available at [localhost:80](http://localhost:80)
 
 Below image demonstrates what Docker may look like when the containers are running successfully.
-[Screenshot of Docker with running containers for a mariadb database, and a wordpress service](/img/Docker-Containers-Running.png)
+![Screenshot of Docker with running containers for a mariadb database, and a wordpress service](/img/Docker-Containers-Running.png)
 
 ## Stopping the Container
 1. If you don't need the environment any more, you can safely stop the container (click the Stop button on the parent).
-[Screenshot of Docker containers, with a red circle around a Stop button](/img/Docker-Stop.png)
+![Screenshot of Docker containers, with a red circle around a Stop button](/img/Docker-Stop.png)
 
 2. This effectively shuts down the 'server'.
