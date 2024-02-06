@@ -10,6 +10,7 @@ The purpose of this repo is to provide a containerised version of WooCommerce fo
     - Alternatively, create a new directory and download the docker-compose.yml into it
 3. Make sure Docker Desktop is running
 4. Navigate to the directory containing docker-compose.yml within your Terminal
+    - If you need a quick review on navigating file systems with Terminal, [try this guide](https://terminalcheatsheet.com/guides/navigate-terminal#navigating-folders)
 5. Run the command `docker compose up -d`
 6. Once your Terminal has finished the job (look for check marks), return to Docker Desktop and look at Containers
 7. You should have a new Container listed with a green icon
