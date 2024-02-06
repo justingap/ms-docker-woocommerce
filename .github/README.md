@@ -14,6 +14,6 @@ The purpose of this repo is to provide a containerised version of WooCommerce fo
 5. Run the command `docker compose up -d`
 6. Once your Terminal has finished the job (look for check marks), return to Docker Desktop and look at Containers
 7. You should have a new Container listed with a green icon
-8. If the container is running, your new Wordpress store should be available at localhost:80
+8. If the container is running, your new Wordpress store should be available at [localhost:80](http://localhost:80)
 
 
