@@ -2,7 +2,7 @@
 
 The purpose of this repo is to provide a containerised version of WooCommerce for quick and easy local development and testing.
 
-**This container is not configured for use in a production environment and should never be deployed to a live site.**
+**This container is not configured for use in a production environment and should never be deployed as a live site.**
 
 ## How to Install
 1. Install Docker Desktop from the Managed Software Centre
@@ -22,5 +22,9 @@ Below image demonstrates what Docker may look like when the containers are runni
 ## Stopping the Container
 1. If you don't need the environment any more, you can safely stop the container (click the Stop button on the parent).
 ![Screenshot of Docker containers, with a red circle around a Stop button](/img/Docker-Stop.png)
-
 2. This effectively shuts down the 'server'.
+NOTE: Data in the database attached to the Wordpress site will persist unless manually removed, or the database volume is deleted.
+
+## Other Info
+- [What is Docker?](https://docs.docker.com/get-started/overview/)
+- [What is a container?](https://www.docker.com/resources/what-container/)
